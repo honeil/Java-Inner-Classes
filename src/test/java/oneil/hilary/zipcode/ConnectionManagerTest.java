@@ -112,7 +112,7 @@ public class ConnectionManagerTest {
         int numOfOpenConnections = 0;
         for(int i = 0; i < 10; i++){
             if(numOfOpenConnections < MAX_OPEN_CONNECTIONS) {
-                    ConnectionManager.ManagedConnection managedConnection = test.new ManagedConnection("127.0.0.1",8000, Protocol.HTTP);
+                    ConnectionManager.ManagedConnection managedConnection = test.buildConnection("127.0.0.1",8000, Protocol.HTTP);
                     connectionsList.add(managedConnection);
                     numOfOpenConnections++;
             }

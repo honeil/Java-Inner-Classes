@@ -16,28 +16,27 @@ class ConnectionManager {
         numOfOpenConnections=0;
     }
 
-
-
-    class ManagedConnection implements Connection{
+    //This class is supposed to be private but I can't figure out testing...
+     class ManagedConnection implements Connection{
 
         private String ip;
         private Protocol protocol;
         private int port;
         boolean isActive = true;
 
-        ManagedConnection(String ip, int port, Protocol protocol){
+      private ManagedConnection(String ip, int port, Protocol protocol){
             this.ip = ip;
             this.port = port;
             this.protocol = protocol;
         }
 
-        ManagedConnection(String ip, Protocol protocol){
+      private ManagedConnection(String ip, Protocol protocol){
             this.ip = ip;
             this.port = 8000;
             this.protocol = protocol;
         }
 
-        ManagedConnection(String ip, int port){
+      private ManagedConnection(String ip, int port){
             this.ip = ip;
             this.port = port;
             this.protocol = Protocol.HTTP;
@@ -70,7 +69,7 @@ class ConnectionManager {
                 message = "Connected to " + this.getIP() + ":" + this.getPort() + " via " + this.getProtocol();
             }
             else
-                message = "Error! You have too many connections.";
+                message = "ERROR: closed connection.";
             return message;
          }
 
@@ -82,6 +81,7 @@ class ConnectionManager {
 
     }
 
+    //Why does IntelliJ consider this a duplicate? My parameters are different.
     ManagedConnection buildConnection(String ip, Protocol protocol){
         if(numOfOpenConnections < MAX_OPEN_CONNECTIONS) {
             ManagedConnection managedConnection = new ManagedConnection(ip, protocol);
@@ -111,6 +111,8 @@ class ConnectionManager {
         }
         return null;
     }
+
+
 }
 
 

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15fa4c8a-3266-4dec-a782-cb5e0e4ebfe1" name="Default" comment="" />
+    <list default="true" id="15fa4c8a-3266-4dec-a782-cb5e0e4ebfe1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/oneil/hilary/zipcode/ConnectionManagerTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oneil/hilary/zipcode/ConnectionManager$ManagedConnection.class" afterPath="$PROJECT_DIR$/target/classes/oneil/hilary/zipcode/ConnectionManager$ManagedConnection.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oneil/hilary/zipcode/ConnectionManager.class" afterPath="$PROJECT_DIR$/target/classes/oneil/hilary/zipcode/ConnectionManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java" afterPath="$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Connection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -50,21 +58,20 @@
       <file leaf-file-name="ConnectionManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="255">
+              <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionManagerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConnectionManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="108" column="94" lean-forward="false" selection-start-line="108" selection-start-column="94" selection-end-line="108" selection-end-column="94" />
+            <state relative-caret-position="150">
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4371#4383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,6 +87,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -212,6 +222,10 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -229,85 +243,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
-  <component name="RunManager" selected="JUnit.ConnectionManagerTest.testMaxConnection">
-    <configuration default="false" name="ConnectionManagerTest.buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnProtocol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InnerClassesLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
-      <option name="METHOD_NAME" value="buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnProtocol" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InnerClassesLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
-      <option name="METHOD_NAME" value="buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="InnerClassesLab" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
-      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
-      <option name="METHOD_NAME" value="buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ConnectionManagerTest">
     <configuration default="false" name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -347,6 +283,84 @@
       <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
       <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
       <option name="METHOD_NAME" value="testMaxConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectionManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InnerClassesLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectionManagerTest.testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InnerClassesLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
+      <option name="METHOD_NAME" value="testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ConnectionManagerTest.buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oneil.hilary.zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="InnerClassesLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="oneil.hilary.zipcode" />
+      <option name="MAIN_CLASS_NAME" value="oneil.hilary.zipcode.ConnectionManagerTest" />
+      <option name="METHOD_NAME" value="buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -741,19 +755,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnProtocol" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxConnection" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxConnection" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxConnection" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnProtocol" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.testMaxConnection" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" />
       </list>
     </recent_temporary>
   </component>
@@ -773,24 +787,20 @@
       <workItem from="1486226540061" duration="2735000" />
       <workItem from="1486255400618" duration="505000" />
       <workItem from="1486366578251" duration="6315000" />
+      <workItem from="1486576402624" duration="1847000" />
+      <workItem from="1486579252500" duration="913000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultPort - 2017.02.06 at 04h 18m 31s.xml">
-      <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultPort" configurationId="JUnit" />
+    <history-entry file="ConnectionManagerTest - 2017.02.08 at 14h 01m 15s.xml">
+      <configuration name="ConnectionManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol - 2017.02.06 at 04h 19m 00s.xml">
-      <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnDefaultProtocol" configurationId="JUnit" />
+    <history-entry file="ConnectionManagerTest - 2017.02.08 at 14h 01m 51s.xml">
+      <configuration name="ConnectionManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP - 2017.02.06 at 04h 18m 49s.xml">
-      <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnIP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort - 2017.02.06 at 04h 18m 56s.xml">
-      <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPAndPortToCreateNewConnectionManager_ShouldReturnPort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnIP - 2017.02.06 at 04h 18m 36s.xml">
-      <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnIP" configurationId="JUnit" />
+    <history-entry file="ConnectionManagerTest - 2017.02.08 at 14h 02m 33s.xml">
+      <configuration name="ConnectionManagerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConnectionManagerTest_buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnPort - 2017.02.06 at 04h 18m 40s.xml">
       <configuration name="ConnectionManagerTest.buildConnectionTest_InputIPPortAndProtocolToCreateNewConnectionManager_ShouldReturnPort" configurationId="JUnit" />
@@ -801,19 +811,25 @@
     <history-entry file="ConnectionManagerTest_buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnIP - 2017.02.06 at 04h 18m 26s.xml">
       <configuration name="ConnectionManagerTest.buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnIP" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConnectionManagerTest_buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol - 2017.02.08 at 14h 02m 24s.xml">
+      <configuration name="ConnectionManagerTest.buildConnectionTest_InputProtocolAndIPToCreateNewConnectionManager_ShouldReturnProtocol" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="ConnectionManagerTest_testMaxConnection - 2017.02.06 at 04h 26m 48s.xml">
       <configuration name="ConnectionManagerTest.testMaxConnection" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConnectionManagerTest_testMaxConnection - 2017.02.06 at 04h 26m 58s.xml">
       <configuration name="ConnectionManagerTest.testMaxConnection" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConnectionManagerTest_testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections - 2017.02.08 at 13h 59m 37s.xml">
+      <configuration name="ConnectionManagerTest.testMaxNumOfConnections_InputTenManagedConnections_ShouldStopAtFiveConnections" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18597000" />
+    <option name="totallyTimeSpent" value="21357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -824,13 +840,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27382874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -863,6 +879,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -873,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -889,35 +915,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -954,29 +963,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="113" column="52" lean-forward="false" selection-start-line="113" selection-start-column="52" selection-end-line="113" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1013,21 +1051,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1064,21 +1094,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1115,21 +1137,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1166,21 +1180,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1193,30 +1199,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ManagedConnectionTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Protocol.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1227,20 +1211,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="18" column="76" lean-forward="false" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/oneil/hilary/zipcode/ConnectionManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1620">
-          <caret line="108" column="94" lean-forward="false" selection-start-line="108" selection-start-column="94" selection-end-line="108" selection-end-column="94" />
+        <state relative-caret-position="150">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4371#4383#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oneil/hilary/zipcode/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
